@@ -1,0 +1,718 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+ul {
+    display: flex;
+    column-gap: 2rem;
+    list-style: none;
+}
+
+
+
+
+
+/* NAVBAR */
+
+
+
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+.nav-link {
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: gray;
+}
+
+
+
+
+/* HEADER */
+
+
+
+
+.bg-container {
+    background-image: url('../src/images/bg-img.png');
+    background-color: rgba(0, 0, 0, 1);
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header-form {
+    padding: 49px 82px;
+}
+
+.header-text1 {
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18.29px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: #18A70F;
+    margin-bottom: 21px;
+}
+
+.header-heading {
+    font-family: "Montserrat";
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58.51px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: white;
+    margin-bottom: 43px;
+}
+
+.header-text2 {
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: white;
+    margin-bottom: 35px;
+}
+
+.header-days {
+    display: flex;
+    column-gap: 43px;
+    margin-bottom: 33px;
+}
+
+.day {
+    color: white;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.85px;
+    letter-spacing: -0.015em;
+    text-align: left;
+}
+
+.emphasis {
+    font-family: "Montserrat";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.88px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: #18A70F;
+}
+
+.header-text3 {
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.29px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.emphasis1 {
+    color: #18A70F;
+}
+
+.header-input-box {
+    Width: 468px;
+    Height: 238px;
+    background-color: rgb(255, 255, 255, 0.1);
+    padding: 41px 19px;
+}
+
+.input-btn {
+    display: flex;
+    border-bottom: 1px solid #18A70F;
+}
+
+.input-header {
+    width: 20rem;
+    Height: 45px;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    color: white;
+    outline: none;
+    padding: 1rem;
+}
+
+.input-header::placeholder {
+    font-size: 1rem;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.94px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: white;
+}
+
+.header-btn {
+    Width: 126px;
+    Height: 45px;
+    background: #6F796E;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.94px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    color: white;
+    margin-bottom: 21px;
+}
+
+.header-btn:hover {
+    color: black;
+    background-color: rgb(216, 216, 216);
+}
+
+.join-btn {
+    Width: 192px;
+    Height: 45px;
+    background: #18A70F;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.94px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    color: white;
+    margin-top: 21px;
+}
+
+.join-btn:hover {
+    color: #18A70F;
+    background-color: black;
+}
+
+.btn1 {
+    margin-left: 45px;
+}
+
+.emphasis2 {
+    font-weight: bold;
+}
+
+.img1 {
+    Width: 736px;
+    Height: 695px;
+    margin-top: 75px;
+}
+
+
+
+
+/* SAGA SECTION */
+
+
+
+
+.cyber-saga {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    padding: 100px 82px;
+}
+
+.cyber-heading {
+    font-family: 'Montserrat';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58.51px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 41px;
+}
+
+.cyber-text {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20.76px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 31px;
+}
+
+
+
+
+/* UNIQUE FIGHTERS */
+
+
+
+.unique-fighter {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    background-color: black;
+}
+
+.unique-fighter-info {
+    width: 100%;
+    Height: 405px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.12)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    padding: 32px 84px;
+}
+
+.unique-fighter-heading {
+    font-family: 'Montserrat';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58.51px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.unique-fighter-text {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20.76px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.unique-fighter-img {
+    border: 2px solid #18A70F;
+    margin-right: 50px;
+}
+
+
+
+
+/* FEATURES */
+
+
+
+
+.project-feature {
+    background-color: black;
+    padding: 200px 0;
+}
+
+.feature-heading {
+    font-family: 'Montserrat';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58.51px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    color: #fff;
+}
+
+.feature-text {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20.76px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.feature-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    place-items: center;
+    row-gap: 20px;
+}
+
+.box {
+    Width: 500px;
+    Height: 350px;
+    text-align: center;
+    background: #FFFFFF21;
+    padding: 1rem;
+}
+
+.box-heading {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.box-text {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20.76px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+/* NFT SECTION */
+
+
+
+
+.nft {
+    background-color: black;
+    padding: 0 50px;
+}
+
+.nft-heading {
+    font-family: 'Montserrat';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58.51px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 90px;
+}
+
+.nft-img img {
+    border: 3px solid #18A70F;
+}
+
+.nft-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nft-text {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20.76px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 26px;
+}
+
+.nft-circles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.nft-circle {
+    width: 180px;
+    height: 180px;
+    color: black;
+    border-radius: 10rem;
+    border: 1rem solid #18A70F;
+    padding: 30px 20px;
+    margin-bottom: 26px;
+}
+
+.nft-percent {
+    font-family: 'Montserrat';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49.82px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #18A70F;
+}
+
+.nft-quality {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20.76px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+
+/* QUESTIONS */
+
+
+.question {
+    background-color: rgb(22, 22, 22);
+    padding: 0 90px;
+}
+
+.question-heading {
+    font-family: 'Montserrat';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58.51px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    color: #fff;
+    margin-top: 84px;
+    margin-bottom: 44px;
+}
+
+.question-text {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.22px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #fff;
+}
+
+.quest {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+
+/* TEAMS */
+
+
+
+
+.team {
+    background-color: black;
+    text-align: center;
+}
+
+.team-heading {
+    font-family: 'Montserrat';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58.51px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.team-input {
+    width: 30rem;
+    height: 4rem;
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 58.51px;
+    letter-spacing: -0.015em;
+    margin-bottom: 40px;
+    border-radius: 1rem;
+    border: none;
+    background-color: #18A70F;
+    color: rgb(255, 255, 255);
+    outline: none;
+    padding-left: 1rem;
+}
+
+.team-input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.name-tag {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    border: 3px solid #18A70F;
+}
+
+.name-link {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 58.51px;
+    letter-spacing: -0.015em;
+    color: #18A70F;
+}
+
+.name-link:hover {
+    color: greenyellow;
+}
+
+.team-players {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+    place-items: center;
+}
+
+.player {
+    position: relative;
+    border: 3px solid #18A70F;
+}
+
+a .player:hover {
+    border: 3px solid greenyellow;
+}
+
+.overlay-text {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+
+.player-name {
+    font-family: 'Montserrat';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58.51px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    color: #fff;
+}
+
+.team-pages {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 50px 0;
+}
+
+.team-links {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: 600;
+    color: #18A70F;
+}
+
+.team-links:hover {
+    color: greenyellow;
+}
+
+
+
+/* FOOTER */
+
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: url('../src/images/bg-img.png');
+    background-color: rgba(0, 0, 0, 1);
+    background-size: cover;
+    background-position: center;
+    padding: 70px 90px;
+}
+
+.footer-part1 {
+    text-align: center;
+}
+
+.part1-text {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.94px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-part2 {
+    text-align: center;
+    text-decoration: none;
+}
+
+.part2-text {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.29px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.part2-link a {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.29px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.part2-link a:hover {
+    color: #18A70F;
+}
+
+.footer-part3 {
+    text-align: center;
+    padding: 0 50px;
+}
+
+.instagram {
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 40px;
+}
+
+.instagram-link a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.instagram-link a:hover {
+    color: #18A70F;
+}
+
+.github {
+    display: flex;
+    column-gap: 15px;
+    margin-bottom: 40px;
+}
+
+.facebook {
+    display: flex;
+    column-gap: 20px;
+}
+
+
+/* HOMENAV */
+        #root {
+            height: 100vh;
+            background-color: black;
+        }
